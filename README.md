@@ -21,7 +21,7 @@ sudo apt install ffmpeg
  ```
 ---
 
-# Model training
+## Model training
 Run the training script to fine-tune the MT5 model on the Samanantar dataset
 ```bash
 python train_mt5.py
@@ -29,13 +29,13 @@ python train_mt5.py
 Model checkpoints will be saved in ./mt5-kannada-en.
 You can configure dataset size, learning rate, and epochs in config.py.
 
-##🔮 Run Inference
+## 🔮 Run Inference
 
 ```bash
 python inference.py
 ```
 
-##🌐 Multimodal Translation
+## 🌐 Multimodal Translation
 Translate from image, audio, or text inputs with a single command:
 ```bash
 python multimodal_pipeline.py
