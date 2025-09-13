@@ -21,7 +21,7 @@ sudo apt install ffmpeg
  ```
 ---
 
-## Model training
+# Model training
 Run the training script to fine-tune the MT5 model on the Samanantar dataset
 ```bash
 python train_mt5.py
